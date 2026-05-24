@@ -164,7 +164,7 @@ export class Windhawk extends Ranger {
   private readonly atkSkillList4th: AtkSkillModel[] = [
     {
       name: 'Crescive Bolt',
-      label: '[V3] Crescive Bolt Lv10',
+      label: '[V2] Crescive Bolt Lv10',
       value: 'Crescive Bolt==10',
       acd: 0.3,
       fct: 1,
@@ -180,7 +180,7 @@ export class Windhawk extends Ranger {
         const totalStack = stack;
         const calaBonus = this.isSkillActive('Calamity Gale') ? 1.2 : 1;
 
-        return (skillLevel * 340 + status.totalCon * 10) * (baseLevel / 100) * (1 + 0.1 * totalStack) * calaBonus;
+        return (skillLevel * 300 + status.totalCon * 10) * (baseLevel / 100) * (1 + 0.1 * totalStack) * calaBonus;
       },
     },
     {
