@@ -54968,6 +54968,30 @@
       ]
     }
   },
+  "300732": {
+    "id": 300732,
+    "aegisName": "Ninja_Team_Card",
+    "name": "Ninja Team Card",
+    "unidName": "Ninja Team Card",
+    "resName": "이름없는카드",
+    "description": "",
+    "slots": 0,
+    "itemTypeId": 6,
+    "itemSubTypeId": 0,
+    "itemLevel": null,
+    "attack": null,
+    "defense": null,
+    "weight": 1,
+    "requiredLevel": null,
+    "location": null,
+    "compositionPos": 4,
+    "cardPrefix": "Poderoso",
+    "script": {
+      "atk": [
+        "200"
+      ]
+    }
+  },
   "27297": {
     "id": 27297,
     "aegisName": "Ancient_W_Fighter_Card",
